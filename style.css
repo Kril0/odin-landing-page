@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    height: 100%;
+    font-family: "Times New Roman", serif;
+}
+
+.top-conatiner{
+    
+    background-color: grey;
+    padding-left: 300px;
+    padding-right: 300px;
+
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.name{
+    font-size: 25px;
+    color: orange;
+}
+
+li{
+    font-size: 20px;
+    margin: 10px; 
+    display: inline;   
+
+}
+
+.Links{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.snake{
+    width: 300px;
+    max-height: auto;
+    margin-bottom: 50px;
+}
+
+.but{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: lightblue;
+    background-color: lightblue;
+    color: white;
+    
+}
+
+.about-snake{
+
+}
+
+
+
+.middle-container{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: white;
+    margin-top: -17px;
+}
+
+.header-two{
+    display: flex;
+    justify-content: center;
+}
+
+.middle-header{
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-1, .card-2, .card-3, .card-4{
+    padding-left: 10px;
+    padding-right: 10px;
+    p{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+}
+
+.middle-snake{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 20%;
+    border: 5px, solid;
+    border-color: blue;
+}
+
+.text-under-middle-pics{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.quote-container{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: lightgray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.quote{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.sign-up{
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: white;
+}
+
+.sign-up-box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: hsl(199, 98%, 82%);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign-up-header{
+    flex-direction: column;
+
+}
+
+.sign-up-button{
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: hsl(199, 98%, 82%);
+    background-color: hsl(0, 0%, 0%);
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.bottom-box{
+    background-color: grey;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
